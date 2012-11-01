@@ -5,7 +5,7 @@ import net.robotmedia.billing.BillingController.BillingStatus;
 import net.robotmedia.billing.BillingRequest.ResponseCode;
 import net.robotmedia.billing.model.Transaction.PurchaseState;
 import android.annotation.TargetApi;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 
 @TargetApi(11)
 public abstract class AbstractBillingFragment extends Fragment implements BillingController.IConfiguration {
